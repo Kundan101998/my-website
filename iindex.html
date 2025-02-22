@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goyal Arun & Associates - Chartered Accountant</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background-color: royalblue; 
+        }
+        header { 
+            background: cyan; 
+            color: black; 
+            padding: 1rem 0; 
+            text-align: center; 
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 1.5s ease-in;
+        }
+        nav { 
+            text-align: center; 
+            background: darkblue; 
+            padding: 0.5rem 0; 
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        nav a { 
+            color: white; 
+            margin: 0 15px; 
+            text-decoration: none; 
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: blue;
+            text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.8);
+        }
+        .container { 
+            width: 80%; 
+            margin: auto; 
+            padding: 20px; 
+            background: white; 
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            transition: transform 0.3s ease-in-out;
+            animation: fadeInUp 1s ease-in-out;
+        }
+        .container:hover {
+            transform: scale(1.02);
+        }
+        footer { 
+            text-align: center; 
+            padding: 1rem; 
+            background: orange; 
+            color: blue; 
+            margin-top: 20px; 
+            box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.2);
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes fadeInUp {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            font-size: 16px;
+            color: white;
+            background: #007BFF;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+        .button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Goyal Arun & Associates</h1>
+        <p>Your Trusted Chartered Accountant</p>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container" id="about">
+        <h2>About Us</h2>
+        <p>We provide expert accounting services tailored to your needs.</p>
+        <p><strong>FCA Arun Goyal</strong></p>
+        <p>Membership Number: 542968</p>
+        <a href="#contact" class="button">Get in Touch</a>
+    </div>
+    <div class="container" id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Tax Planning and Compliance</li>
+            <li>Financial Consulting</li>
+            <li>Audit and Assurance</li>
+            <li>GST & Income Tax Filing</li>
+        </ul>
+        <a href="#contact" class="button">Contact for Services</a>
+    </div>
+    <div class="container" id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: Goyalarunandassociates@gmail.com</p>
+        <p>Phone: +91-8586030581</p>
+        <p>Address: Office NO 101, 1st Floor, Allied House 1, Madangir, New Delhi, 110062</p>
+        <a href="mailto:Goyalarunandassociates@gmail.com" class="button">Email Us</a>
+    </div>
+    <footer>
+        <p>&copy; 2025 Goyal Arun & Associates. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
